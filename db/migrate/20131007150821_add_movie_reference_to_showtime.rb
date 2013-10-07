@@ -1,7 +1,7 @@
 class AddMovieReferenceToShowtime < ActiveRecord::Migration
   def change
     change_table :showtimes do |t|
-      t.references :AddMovieReferenceToShowtime
+      t.references :movie
     end
   end
 end
